@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+body {
+  margin     : 0;
+  font-family: 'Quicksand', 'Tahoma';
+}
+
+
+.App {
+  max-width : 400px;
+  margin    : 30px auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin : 0 10px;
+}
+
+.book_list {
+  padding      : 20px;
+  margin-bottom: 20px;
+}
+
+.book_list ul {
+  padding   : 0;
+  list-style: none;
+}
+
+.book_list ul li {
+  padding              : 10px;
+  margin               : 10px auto;
+  border-radius        : 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius   : 10px;
+  -ms-border-radius    : 10px;
+  -o-border-radius     : 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: .1s linear;
+  -webkit-transition: .1s linear;
+  -moz-transition: .1s linear;
+  -ms-transition: .1s linear;
+  -o-transition: .1s linear;
+}
+
+button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
